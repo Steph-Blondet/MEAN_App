@@ -1,0 +1,6 @@
+USER STORIES
+
+- When a user visits our page they will see the front store with the basic store info
+- The user will scroll down and will see the marketplace
+- When the user clicks on a product, they will see the data of that product (price, name, description)
+- If the user goes to the location area, they will see the google maps with the location
