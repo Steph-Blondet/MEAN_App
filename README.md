@@ -1,14 +1,14 @@
 #eTrendy
 
-![screen shot 2017-01-12 at 1 56 16 pm](https://cloud.githubusercontent.com/assets/22794560/21908448/fe86f728-d8d0-11e6-8ec6-cd3c1af42315.png)
-<hr>
+[Link to the live site] (public/images/home.png)
+
 
 ##Welcome to eTrendy's app for fashion at your finger tips.<br>
 
 This is a collaborative group project for Unit 3 at General Assembly featuring a MEAN-Stack simulated ecommerce store.
 
 
-- To view this app go to: [eTrendy@heroku.com](https://etrendy-app.herokuapp.com/)
+- To view this app go to: [eTrendy](https://etrendy-app.herokuapp.com/)
 
 
 
@@ -48,7 +48,7 @@ To download this app go to:[eTrendy@github](https://github.com/jeska706/MEAN_App
 
 
 
-<hr>
+
 ######Technology/Languages Used for this project:
 
 - Heroku<br>
@@ -76,7 +76,7 @@ To download this app go to:[eTrendy@github](https://github.com/jeska706/MEAN_App
 
 
 
-<hr>
+
 ######Owners/Creators/Authors:
 
 - Architect: Stephanie Blondet<br>
