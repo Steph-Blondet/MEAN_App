@@ -1,6 +1,6 @@
 #eTrendy
 
-[Link to the live site] (public/images/home.png)
+![eTrendy home page] (public/images/home.png "eTrendy home page")
 
 
 ##Welcome to eTrendy's app for fashion at your finger tips.<br>
