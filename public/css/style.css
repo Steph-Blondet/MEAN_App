@@ -1,0 +1,245 @@
+body {
+  letter-spacing: 2px; }
+  body h1 {
+    color: #6FB98F;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding-bottom: 50px;
+    letter-spacing: 2px; }
+
+li {
+  list-style: none; }
+
+#mainNav {
+  background-color: #021C1E;
+  color: #2C7873;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif; }
+  #mainNav a {
+    color: #2C7873; }
+  #mainNav .dropdown-menu {
+    background-color: #FFE6E6; }
+  #mainNav #userName {
+    margin-top: 2px; }
+
+#home {
+  padding-top: 100px;
+  text-align: center; }
+  #home #logo {
+    width: 10%;
+    max-height: 10%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  #home #carousel {
+    margin: 0 auto;
+    width: 100%; }
+  #home #navSearch {
+    margin-left: 310px; }
+
+#products {
+  padding-top: 100px;
+  background-color: #004445; }
+  #products ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px; }
+  #products li {
+    margin: 1%;
+    width: 30%; }
+    #products li #preview {
+      color: white;
+      letter-spacing: 2px;
+      text-decoration: none; }
+    #products li #preview:hover {
+      color: #6FB98F; }
+  #products img {
+    max-width: 80%;
+    height: 50%; }
+  #products .modal {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+    padding-bottom: 5px; }
+    #products .modal img {
+      width: 200px;
+      height: auto;
+      display: -webkit-inline-box;
+      margin: 0 auto;
+      padding: 5px; }
+    #products .modal p {
+      width: 50%;
+      margin: 0 auto; }
+
+#productItem {
+  background-image: radial-gradient(#6FB98F, #2C7873);
+  padding: 10px;
+  border-radius: 10px; }
+  #productItem img {
+    padding: 5px;
+    width: auto;
+    height: 150px; }
+
+#location {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #2C7873;
+  margin: 0 auto; }
+  #location h1 {
+    color: #004445; }
+
+#about {
+  padding: 100px 20px;
+  background-color: #6FB98F;
+  color: #000000;
+  letter-spacing: 2px; }
+  #about h1 {
+    color: #FFFFFF;
+    margin-bottom: 50px; }
+  #about h3 {
+    font-family: 'Merriweather Sans', sans-serif; }
+  #about h4 {
+    font-weight: 300; }
+  #about #steph {
+    margin: 50px 0; }
+    #about #steph #stephImg {
+      display: inline-block;
+      float: left;
+      height: 200px;
+      margin-right: 30px; }
+    #about #steph h4 {
+      padding: 10px;
+      width: 80%;
+      color: #004445; }
+  #about #blaine {
+    margin: 50px 0; }
+    #about #blaine #blaineImg {
+      display: inline-block;
+      float: right;
+      height: 220px;
+      margin-right: 20px; }
+    #about #blaine h2 {
+      margin-left: 64%; }
+    #about #blaine h3 {
+      margin-left: 61%; }
+    #about #blaine h4 {
+      padding: 0 -15px 0 100px;
+      width: 60%;
+      margin-left: 176px;
+      color: #004445; }
+  #about #jes {
+    margin: 50px 0; }
+    #about #jes #jesImg {
+      display: inline-block;
+      float: left;
+      height: 200px;
+      margin-right: 30px; }
+    #about #jes h4 {
+      padding: 10px;
+      width: 80%;
+      color: #004445; }
+
+footer {
+  padding-top: 50px;
+  background-color: #FFE6E6;
+  text-align: center;
+  padding-bottom: 200px; }
+  footer input {
+    text-align: center;
+    width: 50%;
+    margin-top: 5%; }
+  footer cite {
+    padding-bottom: 200px; }
+  footer #subscribe {
+    padding: 10px; }
+  footer #footer {
+    margin-top: 200px; }
+
+@media (max-width: 800px) {
+  h1 {
+    text-align: center; }
+  #about #steph #stephImg {
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    float: none;
+    padding-bottom: 20px; }
+  #about #steph h2, #about #steph h3, #about #steph h4 {
+    margin: auto;
+    text-align: center; }
+  #about #steph h4 {
+    padding-top: 20px;
+    width: 50%;
+    clear: left; }
+  #about #blaine #blaineImg {
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    float: none;
+    padding-bottom: 20px; }
+  #about #blaine h2, #about #blaine h3, #about #blaine h4 {
+    margin: auto;
+    text-align: center; }
+  #about #blaine h4 {
+    padding-top: 20px;
+    width: 50%;
+    clear: left; }
+  #about #jes #jesImg {
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    float: none;
+    padding-bottom: 20px; }
+  #about #jes h2, #about #jes h3, #about #jes h4 {
+    margin: auto;
+    text-align: center; }
+  #about #jes h4 {
+    padding-top: 20px;
+    width: 50%;
+    clear: left; } }
+
+@media (max-width: 700px) {
+  #home {
+    padding-top: 150px;
+    height: 100vh; }
+    #home #product .modal {
+      width: 100%; }
+    #home #navSearch {
+      margin-left: 0; }
+  #products {
+    padding-top: 50px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    #products ul {
+      display: block; }
+    #products #productItem {
+      height: 250px;
+      width: 200px;
+      min-height: 20%;
+      margin: 5px; }
+    #products .modal {
+      min-width: 100%;
+      margin: 0; }
+      #products .modal p {
+        width: 80%; }
+  #about #steph h4 {
+    width: 80%; }
+  #about #blaine h4 {
+    width: 80%; }
+  #about #jes h4 {
+    width: 80%; }
+  footer {
+    padding-top: 100px;
+    height: 100vh; }
+    footer cite {
+      margin-top: 100px;
+      padding: 10px; } }

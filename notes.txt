@@ -4,3 +4,16 @@ USER STORIES
 - The user will scroll down and will see the marketplace
 - When the user clicks on a product, they will see the data of that product (price, name, description)
 - If the user goes to the location area, they will see the google maps with the location
+
+
+THINGS TO DO
+Friday:
+    - ecommerce research
+    - color combination/branding research
+    - shop features?
+
+Sections:
+    - Login: how do we want to incorporate authentication? should we have a page that creates a user so they can log in to their page?
+    - Products: seeded data with image, price, brief product description and buy button
+    - Location: Third Party API? Look into twitter api?
+    - ???
